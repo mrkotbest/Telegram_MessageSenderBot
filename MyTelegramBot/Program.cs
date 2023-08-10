@@ -1,14 +1,12 @@
-﻿using System.Runtime.CompilerServices;
-using Telegram.Bot;
+﻿using Telegram.Bot;
 using Telegram.Bot.Exceptions;
 using Telegram.Bot.Polling;
-using Telegram.Bot.Requests;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 
-const string TELEGRAM_TOKEN = "6137553444:AAFcCKjDO4GAYgy-7AC3CVSFcytnv4kFWIE";
-const long MY_CHAT_ID = 438889695;
+const string TELEGRAM_TOKEN = "Your TOKEN";
+const long MY_CHAT_ID = 111111111;
 bool sentToMeMode = false;
 
 var botClient = new TelegramBotClient(TELEGRAM_TOKEN);
